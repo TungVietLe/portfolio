@@ -1,0 +1,9 @@
+Write scalable code using MVC pattern, achieving loose coupling, reducing component-dependency & code
+duplication in codebase. Minimize checks and draw calls using events system in Observer Pattern, faster 28
+FPS compared to unnecessary property checks every update.
+• Implemented Singleton, State Machine, Factory patterns in architecture. Programmed state machines for key
+in-game systems like entity behavior controllers, weapon firing logic to modularize over 4000 lines of code.
+• Developed new animation system using Unity Coroutines, allowing sequencing of animations that can be
+assembled, previewed via visual editor.
+• Built Serialization System for saving. Optimized loading time by 9% Analyzed file formats & common data types
+to design data structure for safely encoded and decoded from disk via JSON or built-in Scriptable Object.

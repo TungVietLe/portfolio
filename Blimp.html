@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blimp</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/project-1.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+    <main>
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #ABOUT
+      -->
+           
+            <article class="about  active" data-page="about">
+                <back-btn></back-btn>
+                <header>
+                    <h2 class="h2 article-title">Blimp Mobile Game</h2>
+                </header>
+
+                <section class="about-text">
+                    <h1>2-4 player strategy build & battle game for competitive family nights & parties!</h1>
+                </section>
+
+                <iframe width="100%" style="border-radius: 20px; aspect-ratio: 560/315;" src="https://www.youtube.com/embed/8IH_Qr1WIhY?si=Ksj6HDvCo0r_uwg5"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+                <section class="about-text">
+                  <p>Gameplay footage. Huge appreciation to Games Over Coffee Consulting Youtube channel for giving me insightful & valuable feedbacks!</p>
+                </section>
+                  
+                <img class="project-img" src="assets/images/project-1.png" width="100%"/>
+           
+
+
+
+                <div style="display: flex; height: 200px; justify-content: center;">
+                  <a href="https://play.google.com/store/apps/details?id=com.Kaptis.BlimpShowdown&hl=en-US&ah=k4YdLJmHhJOVbjhGH28_i7w54Kc" target="_blank">
+                    <img src="assets/images/icons/Google_Play-Badge-Logo.wine.svg" height="100%"/>
+                  </a>
+                  <a href="sorry.html">
+                    <img src="assets/images/icons/Microsoft_Windows-Logo.wine.svg" height="100%" />
+                  </a>
+                  <a href="sorry.html">
+                    <img src="assets/images/icons/App_Store_(iOS)-Badge-Logo.wine.svg" height="100%" />
+                  </a>
+                </div>
+
+                
+
+
+
+
+                <section class="about-text">
+                  <p>Available: Google Play</p>
+                  <p>Future Updates: Window, App Store</p>
+                  <empty-line></empty-line>
+                  <empty-line></empty-line>
+                  <empty-line></empty-line>
+                  <h1>Brief game description</h1>
+                  <p>
+                    Gameplay in BLIMP involves each player constructing their own ship, equipped with three unique weapons. The goal is to
+                    destroy all the other players' weapons to claim victory. After each round, the area shrinks, forcing players to confront
+                    each other, intensifying the game and creating thrilling tie-breaker situations.
+                  </p>
+                  <h1>What did I do?</h1>
+                  <p>
+                    Write scalable code using MVC pattern, achieving loose coupling, reducing component-dependency & code
+                    duplication in codebase. Minimize checks and draw calls using events system in Observer Pattern, faster 28
+                    FPS compared to unnecessary property checks every game-loop.
+                  </p>
+                  <p>
+                    Implemented Singleton, State Machine, Factory patterns in architecture. Programmed state machines for key
+                    in-game systems like entity behavior controllers, weapon firing logic to modularize over 4000 lines of code.
+                  </p>
+                  <p>
+                    Developed new animation system using Unity Coroutines, allowing sequencing of animations that can be
+                    assembled, previewed via visual editor.
+                  </p>
+                  <p>
+                    Built Serialization System for saving. Optimized loading time by 9% Analyzed file formats & common data types
+                    to design data structure for safely encoded and decoded from disk via JSON or built-in Scriptable Object.
+                  </p>
+                </section>
+
+                <back-btn></back-btn>
+            </article>
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

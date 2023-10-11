@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shotgun Birb</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/project-2.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+    <main>
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #ABOUT
+      -->
+           
+            <article class="about  active" data-page="about">
+                <back-btn></back-btn>
+                <header>
+                    <h2 class="h2 article-title">Shotgun Birb</h2>
+                </header>
+
+                <section class="about-text">
+                    <h1>Battle friends, knock 'em off! Shotgun Birb: physic & local multiplayer frenzy!</h1>
+                </section>
+
+                <img class="project-img" src="assets/images/project-2.png" width="100%"/>
+                
+                <div style="display: flex; height: 200px; justify-content: center;">
+                  <a href="https://play.google.com/apps/testing/com.kaptis.shotgunbirb" target="_blank">
+                    <img src="assets/images/icons/Google_Play-Badge-Logo.wine.svg" height="100%"/>
+                  </a>
+                  <a href="sorry.html">
+                    <img src="assets/images/icons/Microsoft_Windows-Logo.wine.svg" height="100%" />
+                  </a>
+                  <a href="sorry.html">
+                    <img src="assets/images/icons/App_Store_(iOS)-Badge-Logo.wine.svg" height="100%" />
+                  </a>
+                </div>
+
+
+
+                <section class="about-text">
+                  <p>Available: Google Play</p>
+                  <p>Future Updates: Window, App Store</p>
+                </section>
+
+
+                <div class="project-list" style="margin-top: 10%;">
+                  <img class="project-img" src="assets/images/ShotgunBirb/1.jpg"/>
+                  <img class="project-img" src="assets/images/ShotgunBirb/2.png"/>
+                  <img class="project-img" src="assets/images/ShotgunBirb/5.png"/>
+                  <img class="project-img" src="assets/images/ShotgunBirb/4.png"/>
+                  <img class="project-img" src="assets/images/ShotgunBirb/6.png" />
+                </div>
+                <section class="about-text">
+                  <h1>Brief game description</h1>
+                  <p>
+                    In Shotgun Birb, your goal is simple yet exhilarating: knock your opponents off the platforms using your trusty shotgun.
+                    With physics-based mechanics, every shot packs a punch, sending opponents flying and scrambling to stay on solid ground.
+                    Engage in intense battles that require quick reflexes, strategic positioning, and clever use of your character's unique
+                    abilities.
+                  </p>
+                  <h1>What did I do?</h1>
+                  <p>
+                    Developed in C# Unity to support rapid in-game map editor. Architected data-oriented component system
+                    using abstraction & inheritance to establish customizable, reusable game objects.
+                  </p>
+                  <p>
+                    Programmed custom rendering sorting algorithm to create illusion of 3D cube tiles in 2D environment, while
+                    maintaining 20% performance boost benefits of 2D rendering.
+                  </p>
+                  <p>
+                    Increased FPS performance by 35%, by building Object-Pulling system for bullets & effects. Handled GPU
+                    memory to pull commonly-used assets into GPU memory on game start-up, reducing individual object draw
+                    calls by average of 6 calls per frame.
+                  </p>
+                </section>
+              <back-btn></back-btn>
+            </article>
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tung Le Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Le Viet Tung" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Le Viet Tung">Tung Viet Le</h1>
+
+          <p class="title">Learning AR / VR</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:tungle@umass.edu" class="contact-link">tungle@umass.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14132102127" class="contact-link">+1 (413) 210-2127</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/tungvle/" style="color: hsl(182, 100%, 60%);"><u>Tung Le</u></a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Portfolio</button>
+            </li>
+            <button class="navbar-link" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+
+
+
+
+      <!--
+              - #PORTFOLIO
+            -->
+
+
+        <article class="portfolio active" data-page="portfolio">
+        
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+        
+          <section class="projects">
+        
+            <!--
+        
+                    <ul class="filter-list">
+          
+                      <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                      </li>
+          
+                      <li class="filter-item">
+                        <button data-filter-btn>Web design</button>
+                      </li>
+          
+                      <li class="filter-item">
+                        <button data-filter-btn>Applications</button>
+                      </li>
+          
+                      <li class="filter-item">
+                        <button data-filter-btn>Web development</button>
+                      </li>
+          
+                    </ul>
+                  -->
+        
+            <div class="filter-select-box">
+        
+              <button class="filter-select" data-select>
+        
+                <div class="select-value" data-selecct-value>Select category</div>
+        
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+        
+              </button>
+        
+              <ul class="select-list">
+        
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+        
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+        
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+        
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+        
+              </ul>
+        
+            </div>
+        
+            <ul class="project-list">
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="ARspace.html" target="">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/project-AR experiment space.png" alt="finance" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">AR Experiment Space</h3>
+              
+                  <p class="project-category">Sandbox of mini sport games to play at home or in office.</p>
+              
+                </a>
+              </li>
+
+
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="Titan.html" target="">
+                
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                
+                    <img src="./assets/images/project-titan.png" alt="finance" loading="lazy">
+                  </figure>
+                
+                  <h3 class="project-title">Terraforming Sim</h3>
+                
+                  <p class="project-category">An Educational Terraforming Game Submitted to Nasa Space Apps Challenge 2023.</p>
+                
+                </a>
+              </li>
+
+
+
+        
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="Blimp.html" target="">
+        
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+        
+                    <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                  </figure>
+        
+                  <h3 class="project-title">blimp</h3>
+        
+                  <p class="project-category">2-4 player strategy build & battle game for competitive family nights & parties.</p>
+        
+                </a>
+              </li>
+        
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="ShotgunBirb.html" target="">
+        
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+        
+                    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  </figure>
+        
+                  <h3 class="project-title">shotgun birb</h3>
+        
+                  <p class="project-category">Battle friends, knock 'em off! Shotgun Birb: physic & local multiplayer frenzy!</p>
+        
+                </a>
+              </li>
+        
+              
+        
+              <li class="project-item  active" data-filter-item data-category="applications">
+                <a href="NoxiousNight.html" target="">
+        
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+        
+                    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  </figure>
+        
+                  <h3 class="project-title">noxious night</h3>
+        
+                  <p class="project-category">Horror, fast-pace journey of Stevenson, an eight year-old boy.</p>
+        
+                </a>
+              </li>
+        
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="ECSEngine.html" target="">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/project-3.png" alt="fundo" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">ECS engine</h3>
+              
+                  <p class="project-category">Basic game engine as a project after finishing self-learned course COMP 4300 by
+                    Professor David Churchill.</p>
+              
+                </a>
+              </li>
+
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="https://viettung.webflow.io/" target="_blank">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/project-6.png" alt="fundo" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Artfolio</h3>
+              
+                  <p class="project-category">A personal website I coded myself to store the collection of projects I have participated in designing and developing & A gallery of illustrations and animations I created.</p>
+              
+                </a>
+              </li>
+
+
+
+
+
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="Archive.html" target="">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/project-archive.png" alt="fundo" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Archive</h3>
+              
+                  <p class="project-category">Other Projects.
+                  </p>
+              
+                </a>
+              </li>
+            </ul>
+        
+          </section>
+        
+        </article>
+
+
+
+
+
+
+        <!--
+                - #ABOUT
+              -->
+
+      <article class="about" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Greetings! I'm a passionate game programmer and developer who thrives on turning complex mathematical challenges into
+            captivating virtual experiences. With a strong foundation in programming and an insatiable curiosity for the intricacies
+            of mathematics, I find myself constantly drawn to the world of game development.
+          </p>
+          
+          <p>
+            My journey in the realm of code began with a fascination for creating interactive worlds, and over time, I've honed my
+            skills in various programming languages and technologies such as Unity C#. Yet C++ has become my current canvas of choice, allowing me to craft
+            intricate systems that bring imagination to life. From crafting dynamic gameplay mechanics to architecting immersive
+            environments, I revel in the art of coding and its limitless possibilities.
+          </p>
+            
+          <p>
+            What truly sets my heart racing are the mathematical conundrums that lie at the core of game development. I view these
+            challenges as puzzles waiting to be solved, whether it's designing procedural generation algorithms, optimizing
+            performance-critical routines, or fine-tuning physics simulations. Each solution is a triumph, leading to a more
+            polished and seamless player experience.
+          </p>
+          
+            <p>
+              As I delve into the fascinating world of physics engines and game engines, my passion for both programming and
+              mathematics finds a perfect intersection. I'm on an exciting journey to create engines that not only power captivating
+              digital universes but also reflect the beauty and precision of the mathematical laws governing our reality. From
+              simulating realistic physics interactions to architecting scalable and efficient rendering pipelines, I'm committed to
+              pushing the boundaries of what's achievable in the realm of game development.
+            </p>
+            
+            <p>
+              In my spare time, you'll find me exploring new mathematical concepts, experimenting with algorithmic art, and diving
+              into the latest advancements in graphics and simulation. I believe that by continuously learning and innovating, I can
+              contribute to the evolution of the gaming industry and inspire fellow developers to embark on their own creative
+              odysseys.
+            </p>
+            
+            <p>
+              In essence, I'm a game programmer and developer who thrives on mathematical challenges, and I'm dedicated to shaping the
+              future of gaming through my deep love for coding, mathematics, and the incredible stories they can together tell.
+            </p>
+        </section>
+
+
+       
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <object data="assets/resume.pdf" width="100%" height="550px" style="border-radius: 20px;">
+        </object>
+      </article>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
