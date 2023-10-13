@@ -984,7 +984,6 @@ main {
 .project-item-icon-box {
   --scale: 0.8;
 
-  background: var(--jet);
   color: var(--orange-yellow-crayola);
   position: absolute;
   top: 50%;
@@ -1752,7 +1751,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-list { 
     grid-template-columns: repeat(2, 1fr); 
     column-gap: 20px;
-    row-gap: 80px;
+    row-gap: 120px;
   }
 
 
