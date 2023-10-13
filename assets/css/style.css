@@ -1509,7 +1509,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #PORTFOLIO, BLOG
    */
 
-  .project-img, .blog-banner-box { border-radius: 16px; }
+  .project-img, .blog-banner-box { border-radius: 12px; }
 
   .blog-posts-list { gap: 30px; }
 
