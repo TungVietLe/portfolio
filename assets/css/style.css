@@ -1017,10 +1017,9 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
-  color: var(--white-2);
+  color: hsl(0, 0%, 90%);
   font-size: var(--fs-3);
-  font-weight: 800;
-  text-transform: uppercase;
+  font-weight: 700;
   line-height: 2;
 }
 
