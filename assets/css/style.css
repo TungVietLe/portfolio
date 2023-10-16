@@ -314,6 +314,8 @@ main {
 
 
 
+
+
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -449,6 +451,32 @@ main {
 
 
 .social-item .social-link:hover { color: var(--light-gray); }
+
+
+/*-----------------------------------*\
+  #BROWSER SIZE WARING
+\*-----------------------------------*/
+.browser-warning-block {
+  position: fixed;
+  display: block;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.browser-warning-text {
+  position: absolute;
+  max-width: 40%;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
