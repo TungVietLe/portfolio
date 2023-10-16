@@ -58,9 +58,9 @@
 
   --jet: hsl(0, 0%, 60%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: rgba(18, 15, 16, 255);
-  --eerie-black-2: rgba(18, 15, 16, 255);
-  --smoky-black: rgba(18, 15, 16, 255);
+  --eerie-black-1: rgb(31, 31, 31);
+  --eerie-black-2: rgb(31, 31, 31);
+  --smoky-black: rgb(31, 31, 31);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(182, 100%, 60%);
@@ -94,13 +94,13 @@
 
   /**
    * shadow
+   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
+   --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
+   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
+   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
    */
   
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
   /**
    * transition
@@ -463,11 +463,9 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: var(--eerie-black-1);
   backdrop-filter: blur(10px);
   border: 0px solid var(--jet);
   border-radius: 12px 12px 0 0;
-  box-shadow: var(--shadow-2);
   z-index: 5;
 }
 
@@ -481,7 +479,6 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-5);
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -491,7 +488,7 @@ main {
 
 .navbar-link.active { 
   color: var(--orange-yellow-crayola);
-  font-size: 130%; 
+  font-size: 100%; 
 }
 
 
