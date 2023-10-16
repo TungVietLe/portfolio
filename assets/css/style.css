@@ -456,6 +456,12 @@ main {
 /*-----------------------------------*\
   #BROWSER SIZE WARING
 \*-----------------------------------*/
+
+@media screen and (min-width: 1024px) {
+  .browser-warning-block {
+    display: none !important;
+  }
+}
 .browser-warning-block {
   position: fixed;
   display: block;
