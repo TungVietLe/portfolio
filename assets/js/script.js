@@ -1,13 +1,5 @@
 'use strict'
 
-$(window).resize(function () {
-	if ($(this).width() < 1024) {
-		$('.browser-warning-block').show()
-	} else {
-		$('.browser-warning-block').hide()
-	}
-})
-
 class BackToMain extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
