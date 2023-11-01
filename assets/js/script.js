@@ -17,7 +17,7 @@ customElements.define('browser-size-warning', BrowserSizeWarning)
 class BackToMain extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
-        <a href="index.html" style="display: inline-block; border-radius: 3px; font-size: large;  border: 2px solid hsl(182, 100%, 60%); padding: 5px 30px; margin-bottom: 6%; "> < BACK</a>
+        <a href="index.html" style="display: inline-block; border-radius: 3px; font-size: large;  border: 2px solid #CF0A0A; padding: 5px 30px; margin-bottom: 6%; "> < BACK</a>
     `
 	}
 }

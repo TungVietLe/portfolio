@@ -50,21 +50,21 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(182, 100%, 60%), 
-    hsl(182, 100%, 60%)
+    #ffffff, 
+    #ffffff
   );
 
   /* solid */
 
   --jet: hsl(0, 0%, 60%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: rgb(31, 31, 31);
-  --eerie-black-2: rgb(31, 31, 31);
-  --smoky-black: rgb(31, 31, 31);
+  --eerie-black-1: rgb(0, 0, 0);
+  --eerie-black-2: rgb(0, 0, 0);
+  --smoky-black: rgb(0, 0, 0);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(182, 100%, 60%);
-  --vegas-gold: hsl(182, 100%, 60%);
+  --orange-yellow-crayola: #ffffff;
+  --vegas-gold: #ffffff;
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hslhsl(182, 100%, 60%);
@@ -74,7 +74,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'JetBrains Mono', 'Poppins', sans-serif;
+  --ff-poppins: 'Poppins', 'Poppins', sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -125,7 +125,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; color: hsl(182, 100%, 60%); font-weight: 400; }
+a { text-decoration: none; color: #ffffff; font-weight: 900; }
 
 li { list-style: none; }
 
@@ -509,10 +509,11 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  font-weight: 100;
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: #a5a5a5;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -521,6 +522,7 @@ main {
 .navbar-link:focus { color: var(--light-gray-70); }
 
 .navbar-link.active { 
+  font-weight: 700;
   color: var(--orange-yellow-crayola);
   font-size: 100%; 
 }
