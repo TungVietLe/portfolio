@@ -14,6 +14,23 @@ class BrowserSizeWarning extends HTMLElement {
 }
 customElements.define('browser-size-warning', BrowserSizeWarning)
 
+class GoogleAnalytics extends HTMLElement {
+	connectedCallback() {
+		this.innerHTML = `
+			<!-- Google tag (gtag.js) -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2L6PR300T"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'G-H2L6PR300T');
+			</script>
+    	`
+	}
+}
+customElements.define('google-analytics', GoogleAnalytics)
+
 class BackToMain extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
