@@ -58,9 +58,9 @@
 
   --jet: hsl(0, 0%, 60%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: rgb(0, 0, 0);
-  --eerie-black-2: rgb(0, 0, 0);
-  --smoky-black: rgb(0, 0, 0);
+  --eerie-black-1: rgba(26, 26, 26);
+  --eerie-black-2: rgba(26, 26, 26);
+  --smoky-black: rgba(26, 26, 26);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: #ffffff;
