@@ -61,8 +61,8 @@
   --eerie-black-1: rgba(26, 26, 26);
   --eerie-black-2: rgba(26, 26, 26);
   --smoky-black: rgba(26, 26, 26);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
+  --white-1: rgb(255, 255, 255);
+  --white-2: rgb(213, 213, 213);
   --orange-yellow-crayola: #ffffff;
   --vegas-gold: #ffffff;
   --light-gray: hsl(0, 0%, 78%);
@@ -131,7 +131,7 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; color: #ffffff; font-weight: 900; }
+a { text-decoration: none; color: var(--white-1); font-weight: 500; }
 
 li { list-style: none; }
 
