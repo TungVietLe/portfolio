@@ -74,11 +74,11 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Inter', 'Poppins', sans-serif;
+  --ff-poppins: 'inter', 'Poppins', sans-serif;
 
   @font-face {
-      font-family: Inter;
-      src: url(Inter-Medium.woff);
+      font-family: inter;
+      src: url(inter-medium.woff);
   }
   
 
