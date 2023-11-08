@@ -351,7 +351,7 @@ main {
 .info-content .name {
   color: hsl(0, 0%, 75%);
   font-size: var(--fs-4);
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: -0.25px;
   margin-bottom: 10px;
 }
