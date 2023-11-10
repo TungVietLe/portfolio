@@ -541,6 +541,20 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
+.little-icon {
+  color: #ffffff;
+  width: 10px;
+  margin-right: 15px;
+  transition: 0.25s;
+}
+.glow-on-hover {
+  color: #9e9e9e;
+  transition: 0.15s;
+}
+.glow-on-hover:hover {
+  color: rgb(234, 234, 234);
+}
+
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
