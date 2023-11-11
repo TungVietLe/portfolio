@@ -74,7 +74,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'inter',sans-serif;
+  --ff-poppins: 'inter', 'JetBrains Mono', sans-serif;
 
   @font-face {
       font-family: inter;
