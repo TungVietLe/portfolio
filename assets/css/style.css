@@ -552,8 +552,10 @@ main {
   transition: 0.15s;
 }
 .glow-on-hover:hover {
+  transform: translateY(-2px);
   color: rgb(234, 234, 234);
 }
+
 
 .about .article-title { margin-bottom: 15px; }
 
