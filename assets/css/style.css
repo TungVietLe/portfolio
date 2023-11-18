@@ -533,8 +533,19 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
+/*-----------------------------------*\
+  #MORE BTN
+\*-----------------------------------*/
 
-
+.more-btn {
+  margin: 60px auto 0 auto;
+  border: rgb(84, 84, 84) 1px solid;
+  width: 10%;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  color: var(--jet);
+}
 
 
 /*-----------------------------------*\
