@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url('https://fonts.googleapis.com/css2?family=Inter');
 @import "animation.css";
 
 :root {
@@ -60,7 +61,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Inter', 'inter', 'JetBrains Mono', sans-serif;
+  --ff-poppins: 'Inter', sans-serif;
 
   @font-face {
       font-family: inter;
