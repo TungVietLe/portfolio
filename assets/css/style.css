@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import "animation.css";
 
 :root {
@@ -75,7 +60,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'inter', 'JetBrains Mono', sans-serif;
+  --ff-poppins: 'Inter', 'inter', 'JetBrains Mono', sans-serif;
 
   @font-face {
       font-family: inter;
