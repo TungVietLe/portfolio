@@ -16,11 +16,13 @@ $(document).ready(function () {
 	function imageLoaded() {
 		imagesLoaded++
 		if (imagesLoaded == totalImages) {
-			allImagesLoaded()
+			onAllImagesLoaded()
 		}
 	}
 
-	function allImagesLoaded() {
+	$('#continue_anyway').click(onAllImagesLoaded)
+
+	function onAllImagesLoaded() {
 		console.log('ALL IMAGES LOADED')
 		$('#loading_image').hide()
 	}
