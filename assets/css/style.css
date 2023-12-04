@@ -524,7 +524,7 @@ main {
 \*-----------------------------------*/
 
 .outline-btn {
-  margin: 60px auto 0 auto;
+  margin: auto auto;
   border: rgb(84, 84, 84) 1.5px solid;
   padding: 15px 20px;
   width: fit-content;
