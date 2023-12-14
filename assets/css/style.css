@@ -123,6 +123,7 @@ a { text-decoration: none; color: var(--white-1); font-weight: 500; }
 li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
+img {border-radius: 10px;}
 
 button {
   font: inherit;

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Navigation and Computer Controll with Gestures.</title>
+
+    <!--
+    - favicon
+  -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <browser-size-warning></browser-size-warning>
+
+
+    <!--
+    - #MAIN
+  -->
+    <main>
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #ABOUT
+      -->
+           
+            <article class="about  active" data-page="about">
+                <back-btn></back-btn>
+                <header>
+                    <h2 class="h2 article-title">HoloHands: 3D Navigation and Computer Controll with Gestures.</h2>
+                </header>
+
+                
+                <div style="display: flex; height: 200px; justify-content: center;">
+                  <a href="https://project-slot.github.io/HoloHands-site/" target="_blank">
+                    <img src="assets/images/icons/HoloHands.svg" height="100%" />
+                  </a>
+                </div>
+
+                <section class="about-text">
+
+
+
+
+                  <h1>INSPIRATION AND DEVLOG</h1>
+                  <div style="display: flex; gap: 5%; margin-top: 30px;">
+                    <img src="assets/images/Holohands/tonystark.jpg" style="width: 50%; height: 50%;" />
+                    <p>
+                      The scene in Iron Man where Tony Stark effortlessly manipulates holographic displays with just his hands sparked a fire
+                      within me. It wasn't just the futuristic tech wizardry that captivated me, but the sheer intuitiveness of it all. No
+                      clunky controllers, no awkward interfaces, just the natural language of gesture dictating the digital world. That's when
+                      the seed of an idea was sown: to create software that would bridge the gap between the physical and digital, using the
+                      webcam as a portal to a world of 3D interaction. Although there might exist VR application, I believe computer software would access to a much wider audience.<br>
+                    </p>
+                  </div>
+
+
+
+                  <div style="display: flex; gap: 5%; margin-top: 30px; margin-bottom: 50px;">
+                    <p>
+                      Webglazer was my approach initially. Yet, reality proved stubbornly uncooperative. Fluctuations plagued every
+                      glace. Even a heavily trained dataset on controlled environment couldn't tame the imprecision for just picking the correct button effortlessly, 
+                      transforming my smooth interactions into a digital rollercoaster. It simply forced me to recalibrate, to explore other avenues, to refine my approach. The
+                      path to intuitive hand-gesture interaction might not lie with Webglazer, but the detour it provided has only made the
+                      destination clearer.<br>
+                    </p>
+                    <img src="assets/images/Holohands/webgazer.png" style="width: 50%; height: 50%;" />
+                  </div>
+
+
+
+                  <div style="display: flex; gap: 5%; margin-top: 30px;">
+                    <img src="assets/images/Holohands/annotate.png" style="width: 50%; height: 50%;" />
+                    <img src="assets/images/Holohands/roboflow.png" style="width: 50%; height: 50%;" />
+                  </div>
+                  <p>
+                    Trained on Roboflow gesture dataset combine with my self-annotated dataset, YOLOv8 proved a solid choice for gesture detection, 
+                    yielded an impressive 87% mAP50 score. Bounding boxes for my gestures? Nailed it. However, this approach stopped short of individual finger
+                    coordinates, crucial for the nuanced 3D control I envisioned. This wasn't a showstopper, but a detour. Time to refine my
+                    strategy and dig deeper into hand pose estimation.
+                  </p>
+
+
+
+
+
+
+                  <div style="display: flex; gap: 5%; margin-top: 60px; margin-bottom: 50px;">
+                    <p>
+                      Then came MediaPipe - an open-source framework by Google offers a robust solution for extracting hand pose and finger
+                      coordinates, what's left for me is to implemement custom gesture recognition and logic. For example, if [20] y index is smaller than [17] y index, the pinky is closed.
+                      Therefore, a combinations of multiple booleans can predict a large number of complex gestures user trying to convey.<br>
+                    </p>
+                    <img src="assets/images/Holohands/mediapipe.png" style="width: 50%; height: 50%;" />
+                  </div>
+
+
+                  <div style="display: flex; gap: 5%; margin-top: 30px; margin-bottom: 50px;">
+                    <img src="assets/images/Holohands/unity.png" style="width: 50%; height: 50%;" />
+                    <p>
+                      Besides interacting with computer and 3D model navigating, I have been experimenting with importing the data from MediaPipe to send and receive in
+                      Unity environment via UDP. <br>
+                      Since Mediapipe only provide depth information relative to point [0]. To associate the depth of point [0] itself, I based on the distance from [5] to [17] multiply with some cofactor to
+                      shift the hand on z-index accordingly.  
+                    </p>
+                  </div>
+
+                  <p style="display: flex;">The software will be able to download via .exe 
+                    file on the ‎
+                    <a href="https://project-slot.github.io/HoloHands-site/" target="_blank" style="text-decoration: underline;">official website</a>. 
+                    UI is developed with Python Tkinter.
+                  </p>
+                  
+                </section>
+              <back-btn></back-btn>
+            </article>
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
