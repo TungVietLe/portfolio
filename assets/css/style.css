@@ -304,6 +304,16 @@ main {
   min-width: 259px;
 }
 
+.platform-icon {
+  position:relative;
+  color: rgba(255, 255, 255, 0.72);
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.platform-icon.futureupdate{
+  color: #717171;
+}
+
 
 
 
