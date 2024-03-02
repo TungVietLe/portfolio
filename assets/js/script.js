@@ -49,6 +49,31 @@ class EmptyLine extends HTMLElement {
 }
 customElements.define('empty-line', EmptyLine)
 
+class Banner extends HTMLElement {
+  connectedCallback() {
+    const src = this.getAttribute("src");
+	const blur = this.getAttribute("blur");
+    this.innerHTML = `
+		<div style="
+          margin: 0;
+          padding: 0;
+          position:absolute; left: 0; top: 0; right: 0; bottom: 0;
+          width: 98vw; height: 100vh; 
+          background: url(${src});
+          background-position: center;
+          background-repeat: repeat;
+          background-size:cover;
+          background-attachment: fixed;
+		  filter: blur(${blur});
+		  "
+        ></div>
+	`; // Example content using the attribute
+  }
+}
+
+customElements.define('banner-bg', Banner); // Register the element
+
+
 // element toggle function
 const elementToggleFunc = function (elem) {
 	elem.classList.toggle('active')
