@@ -46,7 +46,7 @@
   --jet: hsl(0, 0%, 60%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: rgba(26, 26, 26);
-  --eerie-black-2: rgba(26, 26, 26,0.8);
+  --eerie-black-2: rgba(26, 26, 26,0.6);
   --smoky-black: rgba(26, 26, 26);
   --white-1: rgb(255, 255, 255);
   --white-2: rgb(213, 213, 213);
@@ -168,6 +168,8 @@ article {
   box-shadow: var(--shadow-1);
   z-index: 1;
   background-color: var(--eerie-black-2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .separator {
@@ -239,6 +241,7 @@ p {
 }
 
 .article-title {
+  color: var(--white-1);
   position: relative;
   padding-bottom: 7px;
 }
