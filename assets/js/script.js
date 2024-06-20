@@ -34,8 +34,8 @@ customElements.define('google-analytics', GoogleAnalytics)
 class BackToMain extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
-        <a href="index.html" style="display: inline-block; border-radius: 5px; font-size: large;  border: 2px solid hsl(0, 0%, 50%); color: hsl(0, 0%, 75%); padding: 10px 30px; margin-bottom: 6%; ">🡤 Back</a>
-    `
+        <a href="javascript:history.back()" style="display: inline-block; border-radius: 5px; font-size: large;  border: 2px solid hsl(0, 0%, 50%); color: hsl(0, 0%, 75%); padding: 10px 30px; margin-bottom: 6%; ">🡤 Back</a>
+    `;
 	}
 }
 customElements.define('back-btn', BackToMain)
