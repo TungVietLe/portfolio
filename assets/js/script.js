@@ -1,16 +1,16 @@
 'use strict'
 
 class BrowserSizeWarning extends HTMLElement {
-	connectedCallback() {
-		this.innerHTML = `
-        <div class="browser-warning-block">
-			<p class="browser-warning-text" style="font-size: 4vh; font-weight: 600; color: #7a7a7a">
-				Phone responsivity under development
-				<br><span style ="font-size: 2.5vh; color: white; margin-top: 2.5vh;">Please open my portfolio on a COMPUTER or TABLET for the best experience</span>
-			</p>
-    	</div>
-    	`
-	}
+	// connectedCallback() {
+	// 	this.innerHTML = `
+    //     <div class="browser-warning-block">
+	// 		<p class="browser-warning-text" style="font-size: 4vh; font-weight: 600; color: #7a7a7a">
+	// 			Phone responsivity under development
+	// 			<br><span style ="font-size: 2.5vh; color: white; margin-top: 2.5vh;">Please open my portfolio on a COMPUTER or TABLET for the best experience</span>
+	// 		</p>
+    // 	</div>
+    // 	`
+	// }
 }
 customElements.define('browser-size-warning', BrowserSizeWarning)
 
