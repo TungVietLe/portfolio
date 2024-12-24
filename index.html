@@ -171,10 +171,6 @@
             <button class="navbar-link glow-on-hover active" data-nav-link>projects</button>
           </li>
           
-          <li class="navbar-item">
-            <button class="navbar-link glow-on-hover" data-nav-link>more</button>
-          </li>
-
 
           <li class="navbar-item">
             <button class="navbar-link glow-on-hover" data-nav-link>about</button>
@@ -224,22 +220,20 @@
             <ul class="filter-list">
   
               <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
-  
-              <li class="filter-item">
-                <button data-filter-btn>Games</button>
+                <button class="active" data-filter-btn>Games</button>
               </li>
   
               <li class="filter-item">
                 <button data-filter-btn>Mixed Reality</button>
               </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Art</button>
+              </li>
   
               <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+                <button data-filter-btn>Others</button>
               </li>
-
-  
             </ul>
                          
             <!-- FILTER FOR MOBILE -->
@@ -247,7 +241,7 @@
         
               <button class="filter-select" data-select>
         
-                <div class="select-value" data-selecct-value>Select category</div>
+                <div class="select-value" data-selecct-value>Games</div>
         
                 <div class="select-icon">
                   <ion-icon name="chevron-down"></ion-icon>
@@ -256,31 +250,37 @@
               </button>
         
               <ul class="select-list">
-        
                 <li class="filter-item">
-                  <button class="active" data-filter-btn>All</button>
+                  <button class="active" data-filter-btn>Games</button>
                 </li>
                 
                 <li class="filter-item">
-                  <button data-filter-btn>Web design</button>
+                  <button data-filter-btn>Mixed Reality</button>
+                </li>
+
+                <li class="filter-item">
+                  <button data-filter-btn>Art</button>
                 </li>
                 
                 <li class="filter-item">
-                  <button data-filter-btn>Applications</button>
-                </li>
-                
-                <li class="filter-item">
-                  <button data-filter-btn>Web development</button>
-                </li>
-                
-                <li class="filter-item">
-                  <button data-filter-btn>Game</button>
+                  <button data-filter-btn>Others</button>
                 </li>
               </ul>
         
             </div>
             <!-- FILTER REGION END -->
 
+            <section class="project-item about-text" data-filter-item data-category="games">
+              <p>Where technical and visual met.</p>
+            </section>
+
+            <section class="project-item about-text" data-filter-item data-category="mixed reality">
+              <p>I'm highly interested and focusing on the topic. The future of technologies, where reality and virtual blend in.</p>
+            </section>
+
+            <section class="project-item about-text" data-filter-item data-category="art">
+              <p>Animations, graphics, 3D modeling, UI/UX design made by me.</p>
+            </section>
 
 
 
@@ -312,7 +312,7 @@
               </li> -->
 
 
-              <li class="project-item  active" data-filter-item data-category="games mixed reality">
+              <li class="project-item  active" data-filter-item data-category="games">
                 <a href="FlightSim.html" target="">
               
                   <figure class="project-img">
@@ -337,7 +337,7 @@
               </li>
               
               
-              <li class="project-item  active" data-filter-item data-category="web development mixed reality">
+              <li class="project-item  active" data-filter-item data-category="games">
                 <a href="Blimp.html" target="">
               
                   <figure class="project-img">
@@ -365,7 +365,7 @@
               
               
               
-              <li class="project-item  active" data-filter-item data-category="web development">
+              <li class="project-item  active" data-filter-item data-category="games">
                 <a href="ShotgunBirb.html" target="">
               
                   <figure class="project-img">
@@ -403,7 +403,7 @@
               
               
               
-              <li class="project-item  active" data-filter-item data-category="web design">
+              <li class="project-item  active" data-filter-item data-category="games">
                 <a href="SimplyMetro.html" target="">
               
                   <figure class="project-img">
@@ -423,7 +423,7 @@
 
 
 
-              <li class="project-item  active" data-filter-item data-category="web design">
+              <li class="project-item  active" data-filter-item data-category="art">
                 <a href="https://viettung.webflow.io/illustration" target="_blank">
               
                   <figure class="project-img">
@@ -440,182 +440,238 @@
               
                 </a>
               </li>
+
+
+
+
+
+
+                <li class="project-item  active" data-filter-item data-category="games">
+                  <a href="Titan.html" target="">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/project-titan.png" alt="finance">
+                    </figure>
+              
+                    <h3 class="project-title">Terraforming Sim</h3>
+              
+                    <p class="project-category">An Educational Terraforming Game Submitted to Nasa Space Apps Challenge 2023. Awarded
+                      $20000 AWS credits.</p>
+              
+                  </a>
+                </li>
+              
+              
+              
+                <li class="project-item  active" data-filter-item data-category="games">
+                  <a href="NoxiousNight.html" target="">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/project-4.png" alt="brawlhalla">
+                    </figure>
+              
+                    <h3 class="project-title">Noxious Night</h3>
+              
+                    <p class="project-category">Horror, fast-pace journey of Stevenson, an eight year-old boy.</p>
+                    <i class="fa-brands fa-windows platform-icon"></i>
+                    <i class="fa-brands fa-itch-io platform-icon"></i>
+                  </a>
+                </li>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                <li class="project-item  active" data-filter-item data-category="others">
+                  <a href="Catafy.html" target="">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/catafy/banner-7.jpg" alt="fundo">
+                    </figure>
+              
+                    <h3 class="project-title">Catafy</h3>
+              
+                    <p class="project-category">Full-stack MERN web-based application to create your own e-commerce in less
+                      than 3 minutes.</p>
+              
+                  </a>
+                </li>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                <li class="project-item  active" data-filter-item data-category="others">
+                  <a href="https://project-slot.github.io/Aerial-Cars/" target="_blank">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/aerial-cars.png" alt="finance">
+                    </figure>
+              
+                    <h3 class="project-title">
+                      Aerial Cars Speed Est 🡥
+                    </h3>
+              
+                    <p class="project-category">Aerial (topdown) highway camera view for object, motion detection, and speed
+                      estimation.</p>
+              
+                  </a>
+                </li>
+              
+              
+                <li class="project-item  active" data-filter-item data-category="games others">
+                  <a href="ECSEngine.html" target="">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/project-3.png" alt="fundo">
+                    </figure>
+              
+                    <h3 class="project-title">COMP4300 - ECS engine</h3>
+              
+                    <p class="project-category">Basic game engine as a project after finishing self-learned course COMP 4300 by
+                      Professor David Churchill.</p>
+              
+                  </a>
+                </li>
+              
+              
+              
+                <li class="project-item  active" data-filter-item data-category="others">
+                  <a target="">
+              
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+              
+                      <img src="./assets/images/beach-litter.png" alt="finance">
+                    </figure>
+              
+                    <h3 class="project-title">
+                      Beach Litter BBox Detection / Trash Segmentation
+                    </h3>
+              
+                    <p class="project-category">[update soon] For better speed, Bounding Box is used rather than TACO
+                      Segmentation. Looking to contribute to TACO BBox dataset.</p>
+              
+                  </a>
+                </li>
         
-     
 
-            </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <empty-line></empty-line>
-            <empty-line></empty-line>
-            <empty-line></empty-line>
-            <header>
-              <h2 class="h2 article-title anim-tracking-in-expand">Mixed Reality - AR/VR</h2>
-            </header>
-            <section class="about-text">
-              <p>
-                Project for research, personal, hackathons, startup, etc...
-              </p>
-            </section>
-            
-            <section class="projects">
-            
-              <!--
-                            
-                                        <ul class="filter-list">
-                              
-                                          <li class="filter-item">
-                                            <button class="active" data-filter-btn>All</button>
-                                          </li>
-                              
-                                          <li class="filter-item">
-                                            <button data-filter-btn>Web design</button>
-                                          </li>
-                              
-                                          <li class="filter-item">
-                                            <button data-filter-btn>Applications</button>
-                                          </li>
-                              
-                                          <li class="filter-item">
-                                            <button data-filter-btn>Web development</button>
-                                          </li>
-                              
-                                        </ul>
-                                      -->
-            
-              <div class="filter-select-box">
-            
-                <button class="filter-select" data-select>
-            
-                  <div class="select-value" data-selecct-value>Select category</div>
-            
-                  <div class="select-icon">
-                    <ion-icon name="chevron-down"></ion-icon>
-                  </div>
-            
-                </button>
-            
-                <ul class="select-list">
-            
-                  <li class="select-item">
-                    <button data-select-item>All</button>
-                  </li>
-            
-                  <li class="select-item">
-                    <button data-select-item>Web design</button>
-                  </li>
-            
-                  <li class="select-item">
-                    <button data-select-item>Applications</button>
-                  </li>
-            
-                  <li class="select-item">
-                    <button data-select-item>Web development</button>
-                  </li>
-            
-                </ul>
-            
-              </div>
-                <ul class="project-list">
-
-                  
-
-                  <li class="project-item  active" data-filter-item data-category="web development">
-                    <a href="https://groups.cs.umass.edu/laser" target="_blank">
-                  
-                      <figure class="project-img">
-                        <div class="project-item-icon-box">
-                          <ion-icon name="eye-outline"></ion-icon>
-                        </div>
-                  
-                        <img src="./assets/images/Spatial Sonification/Thumbnail.png" alt="finance">
-                      </figure>
-                  
-                      <h3 class="project-title">
-                        Spatial Data Sonification Research
-                      </h3>
-                  
-                      <p class="project-category">Ongoing research project with the goal to encode spatial data into sounds using new
-                        HRTFs researches.</p>
-                  
-                    </a>
-                  </li>
-
-
-
-                  <li class="project-item  active" data-filter-item data-category="web development">
-                    <a href="ARspace.html" target="">
-                  
-                      <figure class="project-img">
-                        <div class="project-item-icon-box">
-                          <ion-icon name="eye-outline"></ion-icon>
-                        </div>
-                  
-                        <img src="./assets/images/project-AR experiment space.png" alt="finance">
-                      </figure>
-                  
-                      <h3 class="project-title">
-                        AR Experiment Space
-                      </h3>
-                  
-                      <p class="project-category">Sandbox of mini sport games to play at home or in office.</p>
-                  
-                    </a>
-                  </li>
-                  
-                  
-                  
-                  
-                  <li class="project-item  active" data-filter-item data-category="web development">
-                    <a href="https://project-slot.github.io/HandsOn/" target="_blank">
-                  
-                      <figure class="project-img">
-                        <div class="project-item-icon-box">
-                          <ion-icon name="eye-outline"></ion-icon>
-                        </div>
-                  
-                        <img src="./assets/images/HandsOn/2.png" alt="finance">
-                      </figure>
-                  
-                      <h3 class="project-title">
-                        AI Augmented Lab Assistance 🡥
-                      </h3>
-                  
-                      <p class="project-category">Hands On is AR simulation equipped with AI for both teachers & students to
-                        interact, experiment, and make mistakes
-                        freely.</p>
-                  
-                    </a>
-                  </li>
-
-
-
-                 
-
-
-
-                  
-            
-
-
-
-
-                <li class="project-item  active" data-filter-item data-category="web development">
+                <li class="project-item  active" data-filter-item data-category="mixed reality">
+                  <a href="https://groups.cs.umass.edu/laser" target="_blank">
+                
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                
+                      <img src="./assets/images/Spatial Sonification/Thumbnail.png" alt="finance">
+                    </figure>
+                
+                    <h3 class="project-title">
+                      Spatial Data Sonification Research
+                    </h3>
+                
+                    <p class="project-category">Ongoing research project with the goal to encode spatial data into sounds using new
+                      HRTFs researches.</p>
+                
+                  </a>
+                </li>
+                
+                
+                
+                <li class="project-item  active" data-filter-item data-category="mixed reality games">
+                  <a href="ARspace.html" target="">
+                
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                
+                      <img src="./assets/images/project-AR experiment space.png" alt="finance">
+                    </figure>
+                
+                    <h3 class="project-title">
+                      AR Experiment Space
+                    </h3>
+                
+                    <p class="project-category">Sandbox of mini sport games to play at home or in office.</p>
+                
+                  </a>
+                </li>
+                
+                
+                
+                
+                <li class="project-item  active" data-filter-item data-category="mixed reality">
+                  <a href="https://project-slot.github.io/HandsOn/" target="_blank">
+                
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                
+                      <img src="./assets/images/HandsOn/2.png" alt="finance">
+                    </figure>
+                
+                    <h3 class="project-title">
+                      AI Augmented Lab Assistance 🡥
+                    </h3>
+                
+                    <p class="project-category">Hands On is AR simulation equipped with AI for both teachers & students to
+                      interact, experiment, and make mistakes
+                      freely.</p>
+                
+                  </a>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li class="project-item  active" data-filter-item data-category="mixed reality">
                   <a href="HoloHands.html" target="">
                 
                     <figure class="project-img">
@@ -636,12 +692,13 @@
                   </a>
                 </li>
                 
-
-
-
-
-                <li class="project-item  active" data-filter-item data-category="web development">
-                  <a href="https://www.linkedin.com/posts/cics-careers_beventuresome-activity-7191820786314170370-bfmI?utm_source=share&utm_medium=member_desktop" target="_blank">
+                
+                
+                
+                
+                <li class="project-item  active" data-filter-item data-category="mixed reality">
+                  <a href="https://www.linkedin.com/posts/cics-careers_beventuresome-activity-7191820786314170370-bfmI?utm_source=share&utm_medium=member_desktop"
+                    target="_blank">
                 
                     <figure class="project-img">
                       <div class="project-item-icon-box">
@@ -659,285 +716,68 @@
                 
                   </a>
                 </li>
+     
 
-
-
-
-
-                
-
-                
-
-
-
-            
-
-            
-            
-                
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-              </ul>
-        
-          </section>
-        
-        </article>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--
-                      - #PORTFOLIO
-                    -->
-        
-        
-        <article class="more" data-page="more">
-          <empty-line></empty-line>
-          <header>
-            <h2 class="h2 article-title anim-tracking-in-expand">More projects</h2>
-          </header>
-        
-          <section class="projects">
-        
-            <!--
-                
-                            <ul class="filter-list">
-                  
-                              <li class="filter-item">
-                                <button class="active" data-filter-btn>All</button>
-                              </li>
-                  
-                              <li class="filter-item">
-                                <button data-filter-btn>Web design</button>
-                              </li>
-                  
-                              <li class="filter-item">
-                                <button data-filter-btn>Applications</button>
-                              </li>
-                  
-                              <li class="filter-item">
-                                <button data-filter-btn>Web development</button>
-                              </li>
-                  
-                            </ul>
-                          -->
-        
-            <div class="filter-select-box">
-        
-              <button class="filter-select" data-select>
-        
-                <div class="select-value" data-selecct-value>Select category</div>
-        
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-        
-              </button>
-        
-              <ul class="select-list">
-        
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-        
-                <li class="select-item">
-                  <button data-select-item>Web design</button>
-                </li>
-        
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-        
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-        
-              </ul>
-        
-            </div>
-        
-            <ul class="project-list">
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="Titan.html" target="">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/project-titan.png" alt="finance">
-                  </figure>
-              
-                  <h3 class="project-title">Terraforming Sim</h3>
-              
-                  <p class="project-category">An Educational Terraforming Game Submitted to Nasa Space Apps Challenge 2023. Awarded $20000 AWS credits.</p>
-              
-                </a>
-              </li>
-              
-              
-              
-              <li class="project-item  active" data-filter-item data-category="applications">
-                <a href="NoxiousNight.html" target="">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/project-4.png" alt="brawlhalla">
-                  </figure>
-              
-                  <h3 class="project-title">Noxious Night</h3>
-              
-                  <p class="project-category">Horror, fast-pace journey of Stevenson, an eight year-old boy.</p>
-                  <i class="fa-brands fa-windows platform-icon"></i>
-                  <i class="fa-brands fa-itch-io platform-icon"></i>
-                </a>
-              </li>
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              
-              <li class="project-item  active" data-filter-item data-category="web design">
-                <a href="Catafy.html" target="">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/catafy/banner-7.jpg" alt="fundo">
-                  </figure>
-              
-                  <h3 class="project-title">Catafy</h3>
-              
-                  <p class="project-category">Full-stack MERN web-based application to create your own e-commerce in less
-                    than 3 minutes.</p>
-              
-                </a>
-              </li>
-
-
-              
-
-
-
-
-
-
-
-
-
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="https://project-slot.github.io/Aerial-Cars/" target="_blank">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/aerial-cars.png" alt="finance">
-                  </figure>
-              
-                  <h3 class="project-title">
-                    Aerial Cars Speed Est 🡥
-                  </h3>
-              
-                  <p class="project-category">Aerial (topdown) highway camera view for object, motion detection, and speed
-                    estimation.</p>
-              
-                </a>
-              </li>
-              
-              
-              <li class="project-item  active" data-filter-item data-category="web design">
-                <a href="ECSEngine.html" target="">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/project-3.png" alt="fundo">
-                  </figure>
-              
-                  <h3 class="project-title">COMP4300 - ECS engine</h3>
-              
-                  <p class="project-category">Basic game engine as a project after finishing self-learned course COMP 4300 by
-                    Professor David Churchill.</p>
-              
-                </a>
-              </li>
-              
-              
-              
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a target="">
-              
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-              
-                    <img src="./assets/images/beach-litter.png" alt="finance">
-                  </figure>
-              
-                  <h3 class="project-title">
-                    Beach Litter BBox Detection / Trash Segmentation
-                  </h3>
-              
-                  <p class="project-category">[update soon] For better speed, Bounding Box is used rather than TACO
-                    Segmentation. Looking to contribute to TACO BBox dataset.</p>
-              
-                </a>
-              </li>
-        
-        
-        
-        
-        
-        
             </ul>
-        
-            <li class="navbar-item">
-              <button class="navbar-link outline-btn anim-jello-horizontal" data-nav-link
-                style="margin-top: 60px;">apps</button>
-            </li>
-        
-        
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <empty-line></empty-line>
+            <empty-line></empty-line>
+            <empty-line></empty-line>
+            <header>
+              <h2 class="h2 article-title anim-tracking-in-expand">Mixed Reality - AR/VR</h2>
+            </header>
+            <section class="about-text">
+              <p>
+                Project for research, personal, hackathons, startup, etc...
+              </p>
+            </section> -->
+            
+
+                  
+
+                
+                
+
+            
+            
+            
+            
+            
         
           </section>
         
         </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
