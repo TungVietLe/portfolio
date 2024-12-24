@@ -506,6 +506,7 @@ main {
   left: 0;
   width: 100%;
   backdrop-filter: blur(10px);
+  background: rgba(26, 26, 26,0.6);
   border: 0px solid var(--jet);
   border-radius: 12px 12px 0 0;
   z-index: 5;
@@ -955,6 +956,7 @@ main {
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .filter-select {
@@ -1771,19 +1773,20 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .navbar {
-    position: absolute;
+    position: fixed;
     bottom: auto;
     top: 0;
     left: auto;
     right: 0;
     width: max-content;
     border-radius: 0 20px;
-    padding: 0 20px;
+    padding-right: 50px;
+    padding-left: 10px;
     box-shadow: none;
   }
 
   .navbar-list {
-    gap: 30px;
+    gap: 50px;
     padding: 0 20px;
   }
 
